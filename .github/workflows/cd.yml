@@ -32,4 +32,4 @@ jobs:
           project_id: notely-464420
 
       - name: Build Docker image and push to Google Artifact Registry
-        run: gcloud builds submit --tag us-central1-docker.pkg.dev/notely-464420/notely/notely:latest --project notely-464420
+        run: gcloud builds submit --tag us-central1-docker.pkg.dev/notely-464420/notely-ar-repo/notely:latest .
